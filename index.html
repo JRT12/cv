@@ -4,78 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jays Personal Site</title>
+    <title>Jay Robert Thomson</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="20px">
-      <tr>
-        <td><img src="images/jay.png" alt="jay profile picture" /></td>
-        <td>
-          <h1>Jay Robert Thomson</h1>
-          <p>
-            <em>
-              Ex-Professional Cylist and now inspiring
-              <strong>Software developer</strong>.
-            </em>
-          </p>
-          <p>
-            <strong>BIO</strong>: Born on the 12th of April 1986 in Krugersdorp
-            South Africa. Started racing bicycles at the age of 18 after being a
-            rugby player for the majority of my young life. I travelled the
-            world living on 4 diffierent continents and in 6 different
-            countries. As of 2021 I have retired from the world of professional
-            cycling and I am aspiring to be a software developer.
-          </p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h3>
-      <a href="http://www.linkedin.com/in/jay-thomson-b70301a2/">Education</a>
-    </h3>
-    <ul>
-      <li>Univertsity of Essex - CertHE Business and Management</li>
-      <li>Google Analytics - Certified Beginner</li>
-      <li>UDEMY - Digital Marketing Course.</li>
-    </ul>
-<hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10px">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2006-2012</td>
-          <td>
-            Teams 1 through 5 (Dimension Data Team, Konica Minolta, MTN
-            Energade, Fly V Australia, Bissell Procycling, United Healthcare)
-          </td>
-        </tr>
-        <tr>
-          <td>2013-2020</td>
-          <td>Procycling Team (MTN, Dimension Data, NTT Procycling)</td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
-    </table>
-    <hr>
-   <h3>Skills</h3>
-    <table cellspacing="10px">
-      <tr>
-        <td>Sport  &#11088 &#11088 &#11088 &#11088 &#11088</td>
-        <td>Business and Management &#11088 &#11088 &#11088 &#11088</td>
-      </tr>
-      <tr>
-        <td>Statistics &#11088 &#11088 &#11088</td>
-        <td>JavaScript &#11088 &#11088</td>
-      </tr>
-    </table>
-<hr>
-    <h3><a href="hobbies.html">My Hobbies</a></h3>
-    <h3><a href="contact-me.html">My contact details</a></h3>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Jay</h1>
+      <h2>A programmer in the making</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <img src="images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile_picture" src="images/jay.jpg" alt="Jay" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I'm Jay Robert Thomson. Former Professional cyclist building to become
+          a Programmer!I love all things sports.
+        </p>
+      </div>
+      <hr/>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="image_skills1-3" src="images/education.webp" alt="never stop learning" />
+          <h3>Business and Management</h3>
+          <p>I finsihed my CertHE - Business and Management at the University of Essex in march 2021. This has given me the basics of Business and Management. Giving me the perfect place to start a new career.</p>
+        </div>
+        <div class="skill-row">
+          <img class="image_skills2-4" src="images/office.webp" alt="Microsoft" />
+          <h3>Microsoft</h3>
+          <p>I have always been somehow connected and good at microsoft. Especially - Excel , Powerpoint, Word</p>
+        </div>
+        <div class="skill-row">
+          <img class="image_skills1-3" src="images/JavaScript.jpg" alt="Programming" />
+          <h3>JavaScript</h3>
+          <p>For me the next step in my career is to become a senior software developer.There was no better way to start learning then with my Father and the course from Udemy - Web Development Bootcamp by Angela Lu</p>
+        </div>
+        <div class="skill-row">
+          <img class="image_skills2-4" src="images/skills_1.jpg" alt="skills" />
+          <h3>Foundations of Statistics</h3>
+          <p>Numbers have always been fascinating to me and thats way I did the courses on LinkedIn - Foundations of Statistics 1, 2, 3</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Physical Address:</h3>
+        <p>
+          Im Moos 8<br />
+          Oberhof <br />
+          79730 <br />
+          Germany <br />
+        <h3>Contact me</h3>
+          You can call me on: +49 151 617 13558 <br />
+          or use the link below to send an email.
+        </p>
+        <a class="btn" href="mailto:thomson1204@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/jay-thomson-b70301a2/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/@JayRThomson/"
+        >Twitter</a
+      >
+      <a class="footer-link" href="http://www.jaythomson.co.za">Website</a>
+      <p class="copyright">© 2021 Jay R Thomson.</p>
+    </div>
   </body>
 </html>

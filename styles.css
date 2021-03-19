@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #11999e;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+hr {
+  margin: 80px auto;
+  border: 5px dotted;
+  border-style: none none dotted;
+  color: #eaf6f6;
+  background-color: none;
+  width: 5%;
+}
+.top-container {
+  background-color: #caf7e3;
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  height: 100px;
+  margin-top: 80px;
+  padding-top: 50px;
+  word-spacing: 30px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.profile_picture {
+  border-radius: 50%;
+  height: 350px;
+  width: 250px;
+  margin-top: 40px;
+}
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  margin-top: 30px;
+}
+.image_skills1-3 {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+.image_skills2-4 {
+  width: 25%;
+  float: right;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Times New Roman;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 17px;
+  background-color: #66bfbf;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer-link {
+  color: #11999e;
+}
+
+.copyright {
+  word-spacing: 0px;
+}
